@@ -424,7 +424,7 @@ int run_tc_cmd(char *cmd, char **buf)
 	}
 
 	pclose(fp);
-	free(fp);
+	//free(fp);
 	fp = NULL;
 	return i;
 }
